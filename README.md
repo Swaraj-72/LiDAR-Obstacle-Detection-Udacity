@@ -1,2 +1,2 @@
-# LiDAR-Obstacle-Detection-Udacity-Project-
-Project based on LiDAR functionalities and it's application in Autonomous Learning
+# LiDAR Obstacle Detection Udacity Project
+LiDAR is one of the main sensors when it comes to autonomous driving. Its integration with various sensors namely Camera can help the ego vehicle make accurate decisions when needed. This integration is generally termed as Sensor Fusion and comes with a great deal of challenges. Here we demonstrate few such challenges starting from separating the point cloud using RANSAC algorithm with the help of Point Cloud Library (PCD). It then extends to clustering of these points and finally putting a bouding box around each cluster of points. We use various algorithms are various stages and finally ensure the clustering is done perfectly.
